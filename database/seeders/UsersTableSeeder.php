@@ -13,15 +13,15 @@ class UsersTableSeeder extends Seeder
     {
         $users = [
             [
-                'name'           => 'Admin',
-                'email'          => 'admin@admin.com',
+                'name'           => 'Admin 1',
+                'email'          => 'admin1@admin.com',
                 'password'       => bcrypt('admin'),
                 'remember_token' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
-                'name'           => 'Admin2',
+                'name'           => 'Admin 2',
                 'email'          => 'admin2@admin.com',
                 'password'       => bcrypt('admin2'),
                 'remember_token' => null,
